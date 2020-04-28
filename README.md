@@ -25,11 +25,10 @@ We are going to install Java with a package manager called asdf and its plugins
 
 Good job. We installed the asdf package into our machines! Now the next step is to install a plugin for asdf to handle java.
 
+* Run this command ```brew install jq```
 * Now go to these links and follow the installation instructions.
     * https://github.com/halcyon/asdf-java
     * https://github.com/skotchpine/asdf-maven
-
-* Finally run this command ```brew install jq```
 
 Now let us handle our java versions.
 We want to tell our computer which version of java to install. We use a .tool-versions file in order to tell asdf which version to use
